@@ -4,7 +4,7 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 Aspiring Software Engineer
 --------------------------
 
-I'm a sophomore Computer Science major at the University of West Georgia. I'm primarily interested in full-stack development with a primary focus on backend distributed systems and potentially cybersecurity as well. Check out some of my projects in my public repos.
+I'm a junior Computer Science major at the University of West Georgia. I'm primarily interested in full-stack development with a primary focus on backend distributed systems and potentially cybersecurity as well. Check out some of my projects in my public repos.
 
 *   🌍  I'm based in Georgia, USA
 *   ✉️  You can contact me at [donovanbonner11@gmail.com](mailto:donovanbonner11@gmail.com)
