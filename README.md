@@ -1,5 +1,5 @@
 # 💫 About Me:
-👋 Hi, I'm Donovan Bonner — a senior computer science student passionate about building clean, impactful software.<br>💻 I love working on full-stack projects and AI-driven tools.<br>🚀 Currently improving my skills through internships and side projects.
+👋 Hi, I'm Donovan Bonner — a senior computer science student passionate about building clean, impactful software.<br>💻 I love working on full-stack projects and AI-driven tools.<br>🚀 Currently improving my skills through internships and side projects driven around innovation.
 
 
 ## 🌐 Socials:
