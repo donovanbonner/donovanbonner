@@ -14,6 +14,8 @@
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/s02.svg"/><img src="assets/s02.svg" alt="02 — the work"/></picture>
 <a href="https://github.com/donovanbonner/cassandra-brain-tumor-classifier"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/work.svg"/><img src="assets/work.svg" alt="NeuroScan AI — full-stack MRI tumor diagnostics. Cassandra, a fine-tuned EfficientNet CNN, separates three tumor types from healthy MRI at 93.3% test accuracy, with Grad-CAM explainability, a FastAPI backend, a Next.js frontend, and a retrieval-grounded chat assistant. View repo."/></picture></a>
 
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/building.svg"/><img src="assets/building.svg" alt="Building something new in stealth — swift-native, consumer; more when it's ready."/></picture>
+
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/s03.svg"/><img src="assets/s03.svg" alt="03 — telemetry"/></picture>
 
 <div align="center">

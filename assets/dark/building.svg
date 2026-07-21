@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 42" width="820" height="42" font-family="ui-monospace,'SF Mono','JetBrains Mono','Cascadia Code','Fira Code',Menlo,Consolas,monospace" fill="none">
+  <circle cx="12" cy="21" r="4.5" fill="#f0f6fc">
+    <animate attributeName="fill-opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/>
+  </circle>
+  <text x="30" y="26" font-size="15"><tspan fill="#f0f6fc" font-weight="700">building something new</tspan><tspan fill="#8b949e"> in stealth — swift-native, consumer. more when it's ready.&#160;</tspan><tspan fill="#f0f6fc">█<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.05s" repeatCount="indefinite"/></tspan></text>
+</svg>
