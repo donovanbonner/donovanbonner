@@ -12,15 +12,14 @@
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/whoami.svg"/><img src="assets/whoami.svg" alt="Full-stack software engineer in Atlanta, GA, building Swift-native consumer apps on the side."/></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/s02.svg"/><img src="assets/s02.svg" alt="02 — the work"/></picture>
-<a href="https://github.com/donovanbonner/cassandra-brain-tumor-classifier"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/work.svg"/><img src="assets/work.svg" alt="NeuroScan AI — full-stack MRI tumor diagnostics. Cassandra, a fine-tuned EfficientNet CNN, separates three tumor types from healthy MRI at 93.3% test accuracy, with Grad-CAM explainability, a FastAPI backend, a Next.js frontend, and a retrieval-grounded chat assistant. View repo."/></picture></a>
-
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/building.svg"/><img src="assets/building.svg" alt="Building something new in stealth — swift-native, consumer; more when it's ready."/></picture>
+<a href="https://github.com/donovanbonner/cassandra-brain-tumor-classifier"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/work.svg"/><img src="assets/work.svg" alt="NeuroScan AI — full-stack MRI tumor diagnostics. Cassandra, a fine-tuned EfficientNet CNN, separates three tumor types from healthy MRI at 93.3% test accuracy, with Grad-CAM explainability, a FastAPI backend, a Next.js frontend, and a retrieval-grounded chat assistant. View repo."/></picture></a>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/s03.svg"/><img src="assets/s03.svg" alt="03 — telemetry"/></picture>
 
 <div align="center">
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/telemetry.svg"/><img src="assets/telemetry.svg" width="97%" alt="176 contributions in the last year across 7 public repos, building since 2022 — contribution heatmap; languages: Swift, TypeScript, Python, Java, C#, C++"/></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/contribs.svg"/><img src="assets/contribs.svg" width="97%" alt="176 contributions in the last year across 7 public repos, building since 2022 — contribution heatmap; languages: Swift, TypeScript, Python, Java, C#, C++"/></picture>
 
 </div>
 

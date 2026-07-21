@@ -1,0 +1,64 @@
+name: refresh telemetry
+
+# Regenerates assets/contribs.svg daily from the live contribution calendar.
+# Requires a repo secret PROFILE_TOKEN: a classic PAT belonging to donovanbonner
+# with the `read:user` scope (so private contributions are counted). Without it,
+# the job skips cleanly rather than failing.
+
+on:
+  schedule:
+    - cron: "17 8 * * *"   # daily, ~08:17 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-telemetry
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch contribution calendar
+        env:
+          GH_TOKEN: ${{ secrets.PROFILE_TOKEN }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "::warning::PROFILE_TOKEN not set — skipping telemetry refresh."
+            echo "skip=1" >> "$GITHUB_ENV"
+            exit 0
+          fi
+          gh api graphql -f query='
+            query {
+              user(login: "donovanbonner") {
+                repositories(ownerAffiliations: OWNER, isFork: false) { totalCount }
+                contributionsCollection {
+                  contributionCalendar {
+                    totalContributions
+                    weeks { contributionDays { contributionCount date weekday } }
+                  }
+                }
+              }
+            }' > /tmp/cal.json
+          echo "fetched calendar → /tmp/cal.json"
+
+      - name: Regenerate contribution heatmap
+        if: env.skip != '1'
+        run: python3 scripts/gen_telemetry.py
+
+      - name: Commit if changed
+        if: env.skip != '1'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/contribs.svg assets/dark/contribs.svg
+          if git diff --cached --quiet; then
+            echo "no change — heatmap already current"
+          else
+            git commit -m "chore: refresh contribution heatmap [skip ci]"
+            git push
+          fi
