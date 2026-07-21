@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 42" width="820" height="42" font-family="ui-monospace,'SF Mono','JetBrains Mono','Cascadia Code','Fira Code',Menlo,Consolas,monospace" fill="none">
+  <rect x="4" y="13" width="10" height="10" fill="#0d1117"/>
+  <text x="26" y="27" font-size="15" letter-spacing="1"><tspan fill="#0d1117" font-weight="700">01</tspan><tspan fill="#57606a">&#160;&#160;—&#160;&#160;whoami</tspan></text>
+  <line x1="190" y1="19" x2="816" y2="19" stroke="#0d1117" stroke-opacity="0.16" stroke-width="1"/>
+</svg>

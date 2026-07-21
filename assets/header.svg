@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 188" width="820" height="188" font-family="ui-monospace,'SF Mono','JetBrains Mono','Cascadia Code','Fira Code',Menlo,Consolas,monospace" fill="none">
+  <rect x="1" y="1" width="818" height="186" rx="11" fill="none" stroke="#0d1117" stroke-opacity="0.22" stroke-width="1.5"/>
+  <circle cx="30" cy="30" r="5.5" fill="none" stroke="#0d1117" stroke-opacity="0.45"/>
+  <circle cx="50" cy="30" r="5.5" fill="none" stroke="#0d1117" stroke-opacity="0.45"/>
+  <circle cx="70" cy="30" r="5.5" fill="none" stroke="#0d1117" stroke-opacity="0.45"/>
+  <text x="792" y="35" text-anchor="end" font-size="13" fill="#57606a" letter-spacing="0.5">~/donovanbonner — zsh</text>
+  <line x1="20" y1="52" x2="800" y2="52" stroke="#0d1117" stroke-opacity="0.12" stroke-width="1"/>
+  <text x="40" y="118" font-size="46" font-weight="700" letter-spacing="6" fill="#0d1117">DONOVAN BONNER</text>
+  <text x="42" y="156" font-size="16" fill="#57606a"><tspan fill="#0d1117" font-weight="700">$ </tspan>full-stack software engineer &#183; atlanta, ga&#160;<tspan fill="#0d1117">█<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.05s" repeatCount="indefinite"/></tspan></text>
+</svg>

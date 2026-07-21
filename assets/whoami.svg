@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 254" width="820" height="254" font-family="ui-monospace,'SF Mono','JetBrains Mono','Cascadia Code','Fira Code',Menlo,Consolas,monospace" fill="none">
+  <rect x="1" y="1" width="818" height="252" rx="11" fill="none" stroke="#0d1117" stroke-opacity="0.22" stroke-width="1.5"/>
+  <text x="30" y="50" font-size="16"><tspan fill="#0d1117" font-weight="700">$ </tspan><tspan fill="#57606a">whoami</tspan></text>
+  <text x="30" y="96" font-size="16" fill="#0d1117"><tspan fill="#57606a">&gt;&#160;</tspan>full-stack engineer — i build because i can't not.</text>
+  <text x="30" y="128" font-size="16" fill="#0d1117"><tspan fill="#57606a">&gt;&#160;</tspan>shipping swift-native consumer apps on the side,</text>
+  <text x="30" y="154" font-size="16" fill="#0d1117"><tspan>&#160;&#160;</tspan>chasing that premium, it-just-feels-right polish.</text>
+  <text x="30" y="190" font-size="16" fill="#0d1117"><tspan fill="#57606a">&gt;&#160;</tspan>deep focus over breadth: a few hard things, done right.</text>
+  <text x="30" y="222" font-size="16" fill="#0d1117"><tspan fill="#57606a">&gt;&#160;</tspan>production experience that reached real users.&#160;<tspan fill="#0d1117">█<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.05s" repeatCount="indefinite"/></tspan></text>
+</svg>

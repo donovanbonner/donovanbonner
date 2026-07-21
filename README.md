@@ -1,18 +1,29 @@
-# 💫 About Me:
-👋 Hi, I'm Donovan Bonner — a senior computer science student passionate about building clean, impactful software.<br>💻 I love working on full-stack projects and AI-driven tools.<br>🚀 Currently bulding a solution to help people chase their goals and stay consistent.
+<div align="center">
 
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/header.svg"/><img src="assets/header.svg" alt="Donovan Bonner — software engineer"/></picture>
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/donovanbonner1) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/donovanbonnerr) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:donovanbonner11@gmail.com) 
+<a href="https://linkedin.com/in/donovanbonner1"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/LINKEDIN-0d1117?style=flat-square&logo=linkedin&logoColor=ffffff"/><img src="https://img.shields.io/badge/LINKEDIN-ffffff?style=flat-square&logo=linkedin&logoColor=000000" alt="LinkedIn"/></picture></a>
+<a href="https://x.com/donovanbonnerr"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/X-0d1117?style=flat-square&logo=x&logoColor=ffffff"/><img src="https://img.shields.io/badge/X-ffffff?style=flat-square&logo=x&logoColor=000000" alt="X"/></picture></a>
+<a href="mailto:donovanbonner11@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/EMAIL-0d1117?style=flat-square&logo=gmail&logoColor=ffffff"/><img src="https://img.shields.io/badge/EMAIL-ffffff?style=flat-square&logo=gmail&logoColor=000000" alt="Email"/></picture></a>
 
-# 💻 Tech Stack:
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Swift](https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white) ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=donovanbonner&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=donovanbonner&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=donovanbonner&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+</div>
 
----
-[![](https://visitcount.itsvg.in/api?id=donovanbonner&icon=0&color=1)](https://visitcount.itsvg.in)
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/s01.svg"/><img src="assets/s01.svg" alt="01 — whoami"/></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/whoami.svg"/><img src="assets/whoami.svg" alt="Full-stack software engineer in Atlanta, GA, building Swift-native consumer apps on the side."/></picture>
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/s02.svg"/><img src="assets/s02.svg" alt="02 — the work"/></picture>
+<a href="https://github.com/donovanbonner/cassandra-brain-tumor-classifier"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/work.svg"/><img src="assets/work.svg" alt="NeuroScan AI — full-stack MRI tumor diagnostics. Cassandra, a fine-tuned EfficientNet CNN, separates three tumor types from healthy MRI at 93.3% test accuracy, with Grad-CAM explainability, a FastAPI backend, a Next.js frontend, and a retrieval-grounded chat assistant. View repo."/></picture></a>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/s03.svg"/><img src="assets/s03.svg" alt="03 — telemetry"/></picture>
+
+<div align="center">
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=donovanbonner&show_icons=true&hide_title=true&hide_border=true&include_all_commits=true&bg_color=00000000&text_color=8b949e&icon_color=f0f6fc&hide_rank=false&rank_icon=github&ring_color=f0f6fc"/><img src="https://github-readme-stats.vercel.app/api?username=donovanbonner&show_icons=true&hide_title=true&hide_border=true&include_all_commits=true&bg_color=00000000&text_color=57606a&icon_color=0d1117&hide_rank=false&rank_icon=github&ring_color=0d1117" width="97%" alt="GitHub statistics"/></picture>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=donovanbonner&bg_color=00000000&color=f0f6fc&line=f0f6fc&point=f0f6fc&area_color=f0f6fc&area=true&hide_border=true&radius=0&custom_title=CONTRIBUTION%20TELEMETRY"/><img src="https://github-readme-activity-graph.vercel.app/graph?username=donovanbonner&bg_color=00000000&color=0d1117&line=0d1117&point=0d1117&area_color=0d1117&area=true&hide_border=true&radius=0&custom_title=CONTRIBUTION%20TELEMETRY" width="97%" alt="GitHub contribution activity"/></picture>
+
+</div>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/footer.svg"/><img src="assets/footer.svg" alt="thanks for scrolling"/></picture>
+
+<!-- one responsive picture per visual; light/dark handled via prefers-color-scheme -->

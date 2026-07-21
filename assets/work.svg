@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 318" width="820" height="318" font-family="ui-monospace,'SF Mono','JetBrains Mono','Cascadia Code','Fira Code',Menlo,Consolas,monospace" fill="none">
+  <rect x="1" y="1" width="818" height="316" rx="11" fill="none" stroke="#0d1117" stroke-opacity="0.22" stroke-width="1.5"/>
+  <text x="30" y="48" font-size="16"><tspan fill="#0d1117" font-weight="700">$ </tspan><tspan fill="#57606a">open neuroscan-ai</tspan></text>
+  <text x="30" y="88" font-size="18" font-weight="700" fill="#0d1117">NeuroScan AI<tspan font-weight="400" fill="#57606a">&#160;&#160;—&#160;&#160;full-stack MRI tumor diagnostics</tspan></text>
+  <text x="30" y="126" font-size="15" fill="#0d1117"><tspan fill="#57606a">&gt;&#160;</tspan>Cassandra, a fine-tuned EfficientNet CNN, separates three</text>
+  <text x="46" y="151" font-size="15" fill="#0d1117">tumor types from healthy MRI at 93.3% test accuracy.</text>
+  <text x="30" y="184" font-size="15" fill="#0d1117"><tspan fill="#57606a">&gt;&#160;</tspan>Grad-CAM heatmaps trace the gradient back to show exactly</text>
+  <text x="46" y="209" font-size="15" fill="#0d1117">where the model looked — explainable, not a black box.</text>
+  <text x="30" y="242" font-size="15" fill="#0d1117"><tspan fill="#57606a">&gt;&#160;</tspan>Next.js + FastAPI, with a retrieval-grounded assistant</text>
+  <text x="46" y="267" font-size="15" fill="#0d1117">that explains each result in plain language.</text>
+  <text x="30" y="302" font-size="14" fill="#57606a">pytorch &#183; deep learning &#183; full-stack</text>
+  <rect x="626" y="284" width="166" height="30" rx="6" fill="none" stroke="#0d1117" stroke-opacity="0.55"/>
+  <text x="709" y="304" text-anchor="middle" font-size="14" font-weight="700" fill="#0d1117">view repo →</text>
+</svg>
