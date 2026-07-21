@@ -18,9 +18,7 @@
 
 <div align="center">
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=donovanbonner&show_icons=true&hide_title=true&hide_border=true&include_all_commits=true&bg_color=00000000&text_color=8b949e&icon_color=f0f6fc&hide_rank=false&rank_icon=github&ring_color=f0f6fc"/><img src="https://github-readme-stats.vercel.app/api?username=donovanbonner&show_icons=true&hide_title=true&hide_border=true&include_all_commits=true&bg_color=00000000&text_color=57606a&icon_color=0d1117&hide_rank=false&rank_icon=github&ring_color=0d1117" width="97%" alt="GitHub statistics"/></picture>
-
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=donovanbonner&bg_color=00000000&color=f0f6fc&line=f0f6fc&point=f0f6fc&area_color=f0f6fc&area=true&hide_border=true&radius=0&custom_title=CONTRIBUTION%20TELEMETRY"/><img src="https://github-readme-activity-graph.vercel.app/graph?username=donovanbonner&bg_color=00000000&color=0d1117&line=0d1117&point=0d1117&area_color=0d1117&area=true&hide_border=true&radius=0&custom_title=CONTRIBUTION%20TELEMETRY" width="97%" alt="GitHub contribution activity"/></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/telemetry.svg"/><img src="assets/telemetry.svg" width="97%" alt="176 contributions in the last year across 7 public repos, building since 2022 — contribution heatmap; languages: Swift, TypeScript, Python, Java, C#, C++"/></picture>
 
 </div>
 
