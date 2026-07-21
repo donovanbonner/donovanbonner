@@ -28,9 +28,15 @@ gh api graphql -f query='query { user(login:"donovanbonner"){
 python3 scripts/gen_telemetry.py
 ```
 
-## daily auto-refresh
+## auto-refresh
 
-`.github/workflows/refresh-telemetry.yml` regenerates `contribs.svg` once a day.
-It needs a repo secret **`PROFILE_TOKEN`** — a classic PAT with the `read:user`
+`.github/workflows/refresh-telemetry.yml` runs weekly (Mondays). It fetches the
+live calendar and **only commits when the contribution total changes** — so the
+repo log doesn't gain a bot commit every time the sliding 12-month window shifts.
+The total is stored as an `<!-- total=N -->` marker in `contribs.svg` for the
+comparison. Commits are authored by `github-actions[bot]`, so they never count
+toward the contribution graph.
+
+Needs a repo secret **`PROFILE_TOKEN`** — a classic PAT with the `read:user`
 scope — so private contributions are counted. Without the secret the job skips
 cleanly.

@@ -96,7 +96,8 @@ def build(ink=INK, muted=MUTED):
   {''.join(leg)}
   <text x="30" y="{FOOT_Y}" font-size="12" fill="{muted}">languages&#160;&#160;<tspan fill="{ink}">{LANGS}</tspan></text>'''
     return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 {VIEW_H}" '
-            f'width="820" height="{VIEW_H}" font-family="{FONT}" fill="none">\n{body}\n</svg>\n')
+            f'width="820" height="{VIEW_H}" font-family="{FONT}" fill="none">\n'
+            f'<!-- total={TOTAL} -->\n{body}\n</svg>\n')
 
 
 open(os.path.join(LIGHT, "contribs.svg"), "w").write(build(INK, MUTED))
