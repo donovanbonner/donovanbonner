@@ -28,10 +28,10 @@ python3 scripts/gen_telemetry.py  # draws assets/contribs.svg from it
 
 ## auto-refresh
 
-`.github/workflows/refresh-telemetry.yml` runs weekly (Mondays), **no token or
-secret required**. It fetches the public calendar via `fetch_cal.py` and **only
-commits when the contribution total changes** — so the repo log doesn't gain a
-bot commit every week the sliding 12-month window shifts. The total is stored as
+`.github/workflows/refresh-telemetry.yml` runs daily, **no token or secret
+required**. It fetches the public calendar via `fetch_cal.py` and **only commits
+when the contribution total changes** — so the repo log doesn't gain a bot commit
+every day the sliding 12-month window shifts. The total is stored as
 an `<!-- total=N -->` marker in `contribs.svg` for the comparison. Commits are
 authored by `github-actions[bot]`, so they never count toward the contribution
 graph.
