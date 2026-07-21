@@ -1,12 +1,12 @@
 name: refresh telemetry
 
-# Regenerates assets/contribs.svg from the live contribution calendar, but only
-# commits when the contribution TOTAL actually changes — so the repo log stays
-# clean instead of gaining a bot commit every day the sliding window shifts.
+# Regenerates assets/contribs.svg from the PUBLIC contribution calendar, which
+# already counts private contributions because "Include private contributions on
+# my profile" is enabled. No token or secret required — it just works.
 #
-# Requires a repo secret PROFILE_TOKEN: a classic PAT belonging to donovanbonner
-# with the `read:user` scope (so private contributions are counted). Without it,
-# the job skips cleanly rather than failing.
+# Commits only when the contribution TOTAL changes, so the repo log doesn't gain
+# a bot commit every week the sliding window shifts. Commits are authored by
+# github-actions[bot], so they never count toward the contribution graph.
 
 on:
   schedule:
@@ -27,27 +27,8 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Fetch calendar and compare total
-        env:
-          GH_TOKEN: ${{ secrets.PROFILE_TOKEN }}
         run: |
-          if [ -z "$GH_TOKEN" ]; then
-            echo "::warning::PROFILE_TOKEN not set — skipping telemetry refresh."
-            echo "skip=1" >> "$GITHUB_ENV"
-            exit 0
-          fi
-          gh api graphql -f query='
-            query {
-              user(login: "donovanbonner") {
-                repositories(ownerAffiliations: OWNER, isFork: false) { totalCount }
-                contributionsCollection {
-                  contributionCalendar {
-                    totalContributions
-                    weeks { contributionDays { contributionCount date weekday } }
-                  }
-                }
-              }
-            }' > /tmp/cal.json
-
+          python3 scripts/fetch_cal.py
           NEW=$(python3 -c "import json;print(json.load(open('/tmp/cal.json'))['data']['user']['contributionsCollection']['contributionCalendar']['totalContributions'])")
           OLD=$(grep -oE 'total=[0-9]+' assets/contribs.svg | head -1 | grep -oE '[0-9]+' || echo "")
           echo "new total=$NEW  old total=${OLD:-none}"
